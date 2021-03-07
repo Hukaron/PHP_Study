@@ -33,6 +33,6 @@ border-style:inset;
 
 td:hover
 {
-    color: darkblue;
+    color: red;
     background-color: darkgreen;
 }
