@@ -1,6 +1,9 @@
+body{
+    background-color: gray;
+}
 p
 {
-    color: blue;
+    color: orange;
     text-align: center;
 }
 
@@ -10,8 +13,10 @@ p:hover
 }
  table
  {
-     border: rebeccapurple;
+     background-color: gray;
+     border: orangered;
      border-style: dotted;
+     border-style: ridge;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -22,17 +27,38 @@ p:hover
 color: blue;
 border: coral;
 border-style:inset;
+border-style: solid;
  }
 
  td 
  {
-    color: cornflowerblue;
+    color: orange;
     border-style: dotted;
 
 }
 
 td:hover
 {
-    color: red;
-    background-color: darkgreen;
+    color: gray;
+    background-color: orange;
+}
+
+button{
+    shape-rendering: crispEdges;
+    color: gray;
+    background: orange;
+    border-radius: 10px;
+}
+
+button:hover{
+    color: orange;
+    background-color: gray;
+}
+
+.center
+{
+ margin-left: auto;
+ margin-right: auto;
+ text-align: center;
+
 }
